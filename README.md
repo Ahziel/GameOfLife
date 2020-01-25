@@ -1,2 +1,2 @@
 # GameOfLife
-ImplementationJohn Conway's Game of Life usinf OpenFrameworks
+Implementation of John Conway's Game of Life using OpenFrameworks
