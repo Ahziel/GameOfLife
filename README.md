@@ -26,7 +26,7 @@ Create a new project with the project generator of OpenFrameworks and replace th
 ### Commands
 
 * Key N : Create a new grid with a random initialization
-* Key B : Create a new grid full of dead cell
+* Key B : Create a new grid without any live cells
 * Key P : Pause/Play
 * Mouse Pressed : Chance the state of the cell 
 
