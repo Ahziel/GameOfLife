@@ -6,7 +6,7 @@ void ofApp::setup(){
 	// Set Background color to black
 	ofSetBackgroundColor(0);
 
-	game = GameOfLife(ofGetWindowHeight(),200);
+	game = GameOfLife(ofGetWindowHeight(),50);
 	game.createRandomGrid();
 
 	gameOn = false;
@@ -64,17 +64,16 @@ void ofApp::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
 	int i = (int)(x / game.m_squareSize);
 	int j = (int)(y / game.m_squareSize);
 
-	bool val = !game.getValue(i,j);
-	game.setValue(i,j,val);
+	bool val = !game.getValue(i, j);
+	game.setValue(i, j, val);
 }
 
 //--------------------------------------------------------------
